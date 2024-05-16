@@ -16,7 +16,7 @@ public class Historial {
     public static void registrarConversion(String monedaOrigen, String monedaDestino, double cantidad, double resultado) throws IOException {
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(NOMBRE_ARCHIVO, true))){
             String tiempoActual = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-            String registro = String.format("%s: %f %s -> %f %s\n", tiempoActual, cantidad, monedaOrigen, resultado, monedaDestino);
+            String registro = String.format("%s: %.2f %s -> %.2f %s\n", tiempoActual, cantidad, monedaOrigen, resultado, monedaDestino);
             writer.write(registro);
         }catch(IOException e ){
             System.out.println("Error al escribir en el archivo " + e.getMessage());
