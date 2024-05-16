@@ -32,5 +32,24 @@ Además mantiene un historial de conversiones el cuál se puede visualizar.
 - Puedes realizar otra conversión o revisar el historial.
 - Para salir se debe escoger la opción 6. 
 
-#Ejemplo
+## Ejemplo
 
+Al inciar el programa aparece un menú para escoger el tipo de cambio que deseas elegir
+
+![Menu principal](Readme/imagen1.png)
+
+A continuación, debemos ingresar la cantidad a convertir
+
+![Ingresar cantidad](Readme/imagen2.png)
+
+Por último, podemos selecciónar el historial de conversiones para visualizar todas las que se han realizado
+
+![Conversiones](Readme/imagen3.png)
+
+## Autor
+
+- Marco Carrillo [@Marco1595](https://github.com/Marco1595)
+
+## Agradecimiento
+
+Agradecimiento especialmente al equipo de Alura por el material y el contenido del curso.
